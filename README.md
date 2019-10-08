@@ -46,51 +46,40 @@ Máximo 10 GiB de almacenamiento.
 
 
 
+**Añadir nuevo usuario.**
 
+**ID:** 01 
+**Descripción:** Se introducirán los datos tanto personales (Nombre, Apellidos, Número de teléfono…) como clínicos (Tipo de paciente, historial médico…) del paciente.
+**Actores Principales:** Administrador. 
+**Actores Secundarios:** Paciente.
 
-
-
-
-
-
-
-
-
-
-Añadir nuevo usuario.
-
-ID: 01 
-Descripción: Se introducirán los datos tanto personales (Nombre, Apellidos, Número de teléfono…) como clínicos (Tipo de paciente, historial médico…) del paciente.
-Actores Principales: Administrador. 
-Actores Secundarios: Paciente.
-
-Precondiciones:
+**Precondiciones:**
 Ninguna.
 
-Flujo Principal:
+**Flujo Principal:**
 El Administrador desea añadir un nuevo usuario a la lista.
 El Administrador selecciona la opción de añadir nuevo paciente.
 El Administrador introducirá los datos personales del paciente.
 El Administrador introducirá los datos clínicos del paciente.
 El sistema añadirá al nuevo paciente a la lista.
-Postcondiciones:
+**Postcondiciones:**
 Se muestran al Administrador una vista previa de la ficha del paciente.
 
-Flujos alternativos:
+**Flujos alternativos:**
 5.a. En caso de no aportar datos suficientes el sistema no añadirá paciente y volverá a pedir los datos.
 
 
 
-Mostrar la lista de pacientes.
+**Mostrar la lista de pacientes.**
 
-ID: 02
-Descripción: Se mostrará una lista con todos los pacientes registrados en la base de datos hasta la fecha.
-Actores Principales: Administrador. 
-Actores Secundarios: Paciente.
+**ID:** 02
+**Descripción:** Se mostrará una lista con todos los pacientes registrados en la base de datos hasta la fecha.
+**Actores Principales:** Administrador. 
+**Actores Secundarios:** Paciente.
 
-Precondiciones:
+**Precondiciones:**
 Debe haberse introducido al menos un paciente en el registro.
-Flujo Principal:
+**Flujo Principal:**
 El Administrador desea revisar la lista de pacientes.
 El Administrador selecciona la opción que le permitirá revisar la lista del menú.
 El sistema mostrará el nombre y apellido de los pacientes.
