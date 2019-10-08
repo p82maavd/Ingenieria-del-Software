@@ -57,18 +57,27 @@ Máximo 10 GiB de almacenamiento.
 **Actores Secundarios:** Paciente.
 
 **Precondiciones:**
-Ninguna.
+
+- Ninguna.
 
 **Flujo Principal:**
-El Administrador desea añadir un nuevo usuario a la lista.
-El Administrador selecciona la opción de añadir nuevo paciente.
-El Administrador introducirá los datos personales del paciente.
-El Administrador introducirá los datos clínicos del paciente.
-El sistema añadirá al nuevo paciente a la lista.
+
+1. El Administrador desea añadir un nuevo usuario a la lista.
+
+2. El Administrador selecciona la opción de añadir nuevo paciente.
+
+3. El Administrador introducirá los datos personales del paciente.
+
+4. El Administrador introducirá los datos clínicos del paciente.
+
+5. El sistema añadirá al nuevo paciente a la lista.
+
 **Postcondiciones:**
-Se muestran al Administrador una vista previa de la ficha del paciente.
+
+- Se muestran al Administrador una vista previa de la ficha del paciente.
 
 **Flujos alternativos:**
+
 5.a. En caso de no aportar datos suficientes el sistema no añadirá paciente y volverá a pedir los datos.
 
 
@@ -84,89 +93,105 @@ Se muestran al Administrador una vista previa de la ficha del paciente.
 **Actores Secundarios:** Paciente.
 
 **Precondiciones:**
-Debe haberse introducido al menos un paciente en el registro.
+
+- Debe haberse introducido al menos un paciente en el registro.
 
 **Flujo Principal:**
 
-El Administrador desea revisar la lista de pacientes.
-El Administrador selecciona la opción que le permitirá revisar la lista del menú.
-El sistema mostrará el nombre y apellido de los pacientes.
-El Administrador podrá seleccionar un paciente para obtener información más detallada del mismo.
+1. El Administrador desea revisar la lista de pacientes.
+2. El Administrador selecciona la opción que le permitirá revisar la lista del menú.
+3. El sistema mostrará el nombre y apellido de los pacientes.
+4. El Administrador podrá seleccionar un paciente para obtener información más detallada del mismo.
 
 **Postcondiciones:**
-En caso de seleccionar un paciente se mostrarán distintas operaciones relativas al mismo.
+
+- En caso de seleccionar un paciente se mostrarán distintas operaciones relativas al mismo.
 
 **Flujos alternativos:**
+
 4.a. En caso de que el administrador no quiera realizar ninguna acción en referencia al paciente, se retornará a la lista principal de pacientes.
 
 
 
-Buscar usuario por nombre y apellido.
+**Buscar usuario por nombre y apellido.**
 
-ID: 03
-Descripción: Se introduce el nombre y apellido del paciente que se busca y el sistema mostrará la ficha del mismo
-Actores Principales: Administrador. 
-Actores Secundarios: Paciente.
+**ID:** 03
 
-Precondiciones:
-Al menos un paciente en el registro.
+**Descripción:** Se introduce el nombre y apellido del paciente que se busca y el sistema mostrará la ficha del mismo
 
-Flujo Principal:
-El Administrador desea consultar los datos de un paciente.
-El Administrador selecciona la opción que le permitirá revisar la lista del menú.
-El Administrador selecciona dentro de la lista seleccionará la opción que le permitirá buscarlos por nombre y apellido.
-El Administrador introduce el nombre y apellido del paciente.
-El sistema muestra la ficha del paciente.
-Postcondiciones:
-Se muestran al Administrador las distintas operaciones relativas al paciente.
+**Actores Principales:** Administrador. 
 
-Flujos alternativos:
+**Actores Secundarios:** Paciente.
+
+**Precondiciones:**
+- Al menos un paciente en el registro.
+
+**Flujo Principal:**
+1. El Administrador desea consultar los datos de un paciente.
+2. El Administrador selecciona la opción que le permitirá revisar la lista del menú.
+3. El Administrador selecciona dentro de la lista seleccionará la opción que le permitirá buscarlos por nombre y apellido.
+4. El Administrador introduce el nombre y apellido del paciente.
+5. El sistema muestra la ficha del paciente.
+
+**Postcondiciones:**
+- Se muestran al Administrador las distintas operaciones relativas al paciente.
+
+**Flujos alternativos:**
 5.a. Si no existe el paciente, se muestra un mensaje de error y devuelve a la lista.
 
 
 
-Modificar datos personales del paciente.
+**Modificar datos personales del paciente.**
 
-ID: 04
-Descripción: Se introducirán unos nuevos datos personales al paciente seleccionado, dando la posibilidad de cambiar su nombre, apellidos, número de teléfono, dirección postal, etc.
-Actores Principales: Administrador. 
-Actores Secundarios: Paciente.
+**ID:** 04
 
-Precondiciones:
-Al menos un paciente en el registro.
+**Descripción:** Se introducirán unos nuevos datos personales al paciente seleccionado, dando la posibilidad de cambiar su nombre, apellidos, número de teléfono, dirección postal, etc.
 
-Flujo Principal:
-El Administrador desea modificar los datos de un paciente.
-El Administrador selecciona la opción que le permitirá revisar la lista del menú.
-El Administrador selecciona un paciente dentro de la lista.
-El Administrador seleccionará la opción de modificar datos personales del paciente.
-El Administrador realizará todos los cambios pertinentes.
-El sistema mostrará una vista previa de la nueva ficha del paciente.
-Postcondiciones:
-Al finalizar la edición, se muestran al Administrador las distintas operaciones relativas al paciente.
+**Actores Principales:** Administrador. 
 
-Flujos alternativos:
+**Actores Secundarios:** Paciente.
+
+**Precondiciones:**
+- Al menos un paciente en el registro.
+
+**Flujo Principal:**
+1. El Administrador desea modificar los datos de un paciente.
+2. El Administrador selecciona la opción que le permitirá revisar la lista del menú.
+3. El Administrador selecciona un paciente dentro de la lista.
+4. El Administrador seleccionará la opción de modificar datos personales del paciente.
+5. El Administrador realizará todos los cambios pertinentes.
+6. El sistema mostrará una vista previa de la nueva ficha del paciente.
+
+**Postcondiciones:**
+- Al finalizar la edición, se muestran al Administrador las distintas operaciones relativas al paciente.
+
+**Flujos alternativos:**
 5.a. En caso de no realizar ningún cambio el sistema devolverá al Administrador a la lista de pacientes.
-Modificar datos clínicos del paciente.
 
-ID: 05
-Descripción: Se introducirán unos nuevos datos clínicos al paciente seleccionado, dando la posibilidad de cambiar su tipo de paciente, historial médico, tratamiento, etc.
-Actores Principales: Administrador. 
-Actores Secundarios: Paciente.
+**Modificar datos clínicos del paciente.**
 
-Precondiciones:
-Al menos un paciente en el registro.
+**ID:** 05
 
-Flujo Principal:
-El Administrador desea modificar los datos de un paciente.
-El Administrador selecciona la opción que le permitirá revisar la lista del menú.
-El Administrador selecciona un paciente dentro de la lista.
-El Administrador seleccionará la opción de modificar datos clínicos del paciente.
-El Administrador realizará todos los cambios pertinentes.
-El sistema mostrará una vista previa de la nueva ficha del paciente.
-Postcondiciones:
-Al finalizar la edición, se muestran al Administrador las distintas operaciones relativas al paciente.
+**Descripción:** Se introducirán unos nuevos datos clínicos al paciente seleccionado, dando la posibilidad de cambiar su tipo de paciente, historial médico, tratamiento, etc.
 
-Flujos alternativos:
+**Actores Principales:** Administrador. 
+
+**Actores Secundarios:** Paciente.
+
+**Precondiciones:**
+- Al menos un paciente en el registro.
+
+**Flujo Principal:**
+1. El Administrador desea modificar los datos de un paciente.
+2. El Administrador selecciona la opción que le permitirá revisar la lista del menú.
+3. El Administrador selecciona un paciente dentro de la lista.
+4. El Administrador seleccionará la opción de modificar datos clínicos del paciente.
+5. El Administrador realizará todos los cambios pertinentes.
+6. El sistema mostrará una vista previa de la nueva ficha del paciente.
+
+**Postcondiciones:**
+- Al finalizar la edición, se muestran al Administrador las distintas operaciones relativas al paciente.
+
+**Flujos alternativos:**
 5.a. En caso de no realizar ningún cambio el sistema devolverá al Administrador a la lista de pacientes.
 
