@@ -49,8 +49,11 @@ Máximo 10 GiB de almacenamiento.
 **Añadir nuevo usuario.**
 
 **ID:** 01 
+
 **Descripción:** Se introducirán los datos tanto personales (Nombre, Apellidos, Número de teléfono…) como clínicos (Tipo de paciente, historial médico…) del paciente.
+
 **Actores Principales:** Administrador. 
+
 **Actores Secundarios:** Paciente.
 
 **Precondiciones:**
@@ -73,21 +76,27 @@ Se muestran al Administrador una vista previa de la ficha del paciente.
 **Mostrar la lista de pacientes.**
 
 **ID:** 02
+
 **Descripción:** Se mostrará una lista con todos los pacientes registrados en la base de datos hasta la fecha.
+
 **Actores Principales:** Administrador. 
+
 **Actores Secundarios:** Paciente.
 
 **Precondiciones:**
 Debe haberse introducido al menos un paciente en el registro.
+
 **Flujo Principal:**
+
 El Administrador desea revisar la lista de pacientes.
 El Administrador selecciona la opción que le permitirá revisar la lista del menú.
 El sistema mostrará el nombre y apellido de los pacientes.
 El Administrador podrá seleccionar un paciente para obtener información más detallada del mismo.
-Postcondiciones:
+
+**Postcondiciones:**
 En caso de seleccionar un paciente se mostrarán distintas operaciones relativas al mismo.
 
-Flujos alternativos:
+**Flujos alternativos:**
 4.a. En caso de que el administrador no quiera realizar ninguna acción en referencia al paciente, se retornará a la lista principal de pacientes.
 
 
