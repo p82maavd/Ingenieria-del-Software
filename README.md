@@ -285,8 +285,11 @@ Máximo 10 GiB de almacenamiento.
 **ID:** 02         **Nombre:** Mostrar la lista de pacientes.
 
 **Prioridad(de 1 a 10): 7        Puntos Estimado: 3    Iteración: 1**
+
 **Responsable:** Hugo Romero.
+
 **Descripción:** Como Administrador quiero una lista que muestre los datos de los distintos pacientes, previamente introducidos.
+
 **Validación:**
 -Debe aparecer el nombre y apellido de los pacientes a modo de vista previa.
 -La ficha del paciente debe poder ampliarse al seleccionarse.
@@ -300,8 +303,11 @@ Máximo 10 GiB de almacenamiento.
 **ID:** 03         **Nombre:** Buscar usuario por nombre y apellidos.
 
 **Prioridad(de 1 a 10): 7        Puntos Estimado: 3    Iteración: 1**
+
 **Responsable:** Hugo Romero.
+
 **Descripción:** Como Administrador quiero una lista que muestre los datos de los distintos pacientes, previamente introducidos.
+
 **Validación:**
 -Se debe poder localizar cualquier usuario.
 -Los resultados de la búsqueda pueden mostrar cero o más resultados.
@@ -316,8 +322,11 @@ Máximo 10 GiB de almacenamiento.
 **ID:** 04        **Nombre:** Modificar datos personales del paciente
 
 **Prioridad(de 1 a 10): 8        Puntos Estimado: 3    Iteración: 1**
+
 **Responsable:** Miguel Ángel Romero.
+
 **Descripción:** Se introducirán unos nuevos datos personales al paciente seleccionado
+
 **Validación:**
 -El paciente debe estar registrado con anterioridad.
 -Se debe introducir nombre.
@@ -334,8 +343,11 @@ Máximo 10 GiB de almacenamiento.
 **ID:** 05        **Nombre:** Modificar datos clínicos del paciente
 
 **Prioridad(de 1 a 10): 9        Puntos Estimado: 3    Iteración: 1**
+
 **Responsable:** Miguel Ángel Romero.
+
 **Descripción:** Se introducirán unos nuevos datos clínicos del paciente seleccionado.
+
 **Validación:**
 -El paciente debe estar registrado con anterioridad.
 -Se debe introducir tipo de paciente (Privado/Público).
