@@ -80,7 +80,7 @@ Máximo 10 GiB de almacenamiento.
 
 5.a. En caso de no aportar datos suficientes el sistema no añadirá paciente y volverá a pedir los datos.
 
-
+---
 
 **Mostrar la lista de pacientes.**
 
@@ -111,7 +111,7 @@ Máximo 10 GiB de almacenamiento.
 
 4.a. En caso de que el administrador no quiera realizar ninguna acción en referencia al paciente, se retornará a la lista principal de pacientes.
 
-
+---
 
 **Buscar usuario por nombre y apellido.**
 
@@ -139,7 +139,7 @@ Máximo 10 GiB de almacenamiento.
 **Flujos alternativos:**
 5.a. Si no existe el paciente, se muestra un mensaje de error y devuelve a la lista.
 
-
+---
 
 **Modificar datos personales del paciente.**
 
@@ -168,6 +168,8 @@ Máximo 10 GiB de almacenamiento.
 **Flujos alternativos:**
 5.a. En caso de no realizar ningún cambio el sistema devolverá al Administrador a la lista de pacientes.
 
+---
+
 **Modificar datos clínicos del paciente.**
 
 **ID:** 05
@@ -194,6 +196,8 @@ Máximo 10 GiB de almacenamiento.
 
 **Flujos alternativos:**
 5.a. En caso de no realizar ningún cambio el sistema devolverá al Administrador a la lista de pacientes.
+
+---
 
 **Concertar una cita**
 
@@ -222,6 +226,7 @@ Máximo 10 GiB de almacenamiento.
 **Flujos alternativos:**
 4.a. En caso de no realizar ningún cambio el sistema devolverá al Administrador a la lista de pacientes.
 
+---
 
 **Mostrar citas del día**
 
@@ -249,6 +254,7 @@ Máximo 10 GiB de almacenamiento.
 **Flujos alternativos:**
 3.a. En el caso de que no haya ninguna cita, el sistema mostrará un mensaje en el que indicará que no hay ninguna cita.
 
+---
 
 **Historia de Usuario**
 
@@ -272,7 +278,7 @@ Máximo 10 GiB de almacenamiento.
 -Se debe introducir citas registradas.
 -Todos los datos nombrados anteriormente deben ser verídicos.
 
-
+---
 
 **Historia de Usuario**
 
@@ -287,7 +293,7 @@ Máximo 10 GiB de almacenamiento.
 -Se mostrará información más detallada al seleccionarse.
 -Al seleccionarse un paciente también aparecerán distintas opciones en referencia al mismo.
 
-
+---
 
 **Historia de Usuario**
 
@@ -303,6 +309,7 @@ Máximo 10 GiB de almacenamiento.
 -Se debe mostrar la posición en la lista del paciente.
 -Se debe mostrar las operaciones posibles sobre el usuario.
 
+---
 
 **Historia de Usuario**
 
@@ -319,6 +326,8 @@ Máximo 10 GiB de almacenamiento.
 -Se debe introducir dirección postal.
 -Se debe introducir fecha de nacimiento.
 -Todos los datos nombrados anteriormente deben ser verídicos.
+
+---
 
 **Historia de Usuario**
 
