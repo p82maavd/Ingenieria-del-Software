@@ -225,7 +225,7 @@ Máximo 10 GiB de almacenamiento.
 
 **Mostrar citas del día**
 
-****ID:** 07
+**ID:** 07
 
 **Descripción:** Mostrará todas las citas y el nombre de los pacientes que hayan sido registradas en el sistema para el dia en el que se realize
 
@@ -260,79 +260,79 @@ Máximo 10 GiB de almacenamiento.
 **Descripción:** Se introducirán los datos tanto personales del paciente.
 
 **Validación:**
-*El paciente no puede estar registrado con anterioridad.
-*Se debe introducir nombre.
-*Se debe introducir apellidos.
-*Se debe introducir teléfono.
-*Se debe introducir dirección postal.
-*Se debe introducir fecha de nacimiento.
-*Se debe introducir tipo de paciente (Privado/Público).
-*Se debe introducir historial médico (Enfermedad, Problema, etc..).
-*Se debe introducir tratamiento (Dósis, Regularidad).
-*Se debe introducir citas registradas.
-*Todos los datos nombrados anteriormente deben ser verídicos.
+-El paciente no puede estar registrado con anterioridad.
+-Se debe introducir nombre.
+-Se debe introducir apellidos.
+-Se debe introducir teléfono.
+-Se debe introducir dirección postal.
+-Se debe introducir fecha de nacimiento.
+-Se debe introducir tipo de paciente (Privado/Público).
+-Se debe introducir historial médico (Enfermedad, Problema, etc..).
+-Se debe introducir tratamiento (Dósis, Regularidad).
+-Se debe introducir citas registradas.
+-Todos los datos nombrados anteriormente deben ser verídicos.
 
 
 
-Historia de Usuario
+**Historia de Usuario**
 
-ID: 02         Nombre: Mostrar la lista de pacientes.
+**ID:** 02         **Nombre:** Mostrar la lista de pacientes.
 
-Prioridad(de 1 a 10): 7        Puntos Estimado: 3    Iteración: 1
-Responsable: Hugo Romero.
-Descripción: Como Administrador quiero una lista que muestre los datos de los distintos pacientes, previamente introducidos.
-Validación:
-Debe aparecer el nombre y apellido de los pacientes a modo de vista previa.
-La ficha del paciente debe poder ampliarse al seleccionarse.
-Se mostrará información más detallada al seleccionarse.
-Al seleccionarse un paciente también aparecerán distintas opciones en referencia al mismo.
-
-
-
-Historia de Usuario
-
-ID: 03         Nombre: Buscar usuario por nombre y apellidos.
-
-Prioridad(de 1 a 10): 7        Puntos Estimado: 3    Iteración: 1
-Responsable: Hugo Romero.
-Descripción: Como Administrador quiero una lista que muestre los datos de los distintos pacientes, previamente introducidos.
-Validación:
-Se debe poder localizar cualquier usuario.
-Los resultados de la búsqueda pueden mostrar cero o más resultados.
-No es necesario utilizar el nombre completo.
-Se debe mostrar la posición en la lista del paciente.
-Se debe mostrar las operaciones posibles sobre el usuario.
+**Prioridad(de 1 a 10): 7        Puntos Estimado: 3    Iteración: 1**
+**Responsable:** Hugo Romero.
+**Descripción:** Como Administrador quiero una lista que muestre los datos de los distintos pacientes, previamente introducidos.
+**Validación:**
+-Debe aparecer el nombre y apellido de los pacientes a modo de vista previa.
+-La ficha del paciente debe poder ampliarse al seleccionarse.
+-Se mostrará información más detallada al seleccionarse.
+-Al seleccionarse un paciente también aparecerán distintas opciones en referencia al mismo.
 
 
-Historia de Usuario
 
-ID: 04        Nombre: Modificar datos personales del paciente
+**Historia de Usuario**
 
-Prioridad(de 1 a 10): 8        Puntos Estimado: 3    Iteración: 1
-Responsable: Miguel Ángel Romero.
-Descripción: Se introducirán unos nuevos datos personales al paciente seleccionado
-Validación:
-El paciente debe estar registrado con anterioridad.
-Se debe introducir nombre.
-Se debe introducir apellidos.
-Se debe introducir teléfono.
-Se debe introducir dirección postal.
-Se debe introducir fecha de nacimiento.
-Todos los datos nombrados anteriormente deben ser verídicos.
+**ID:** 03         **Nombre:** Buscar usuario por nombre y apellidos.
 
-Historia de Usuario
+**Prioridad(de 1 a 10): 7        Puntos Estimado: 3    Iteración: 1**
+**Responsable:** Hugo Romero.
+**Descripción:** Como Administrador quiero una lista que muestre los datos de los distintos pacientes, previamente introducidos.
+**Validación:**
+-Se debe poder localizar cualquier usuario.
+-Los resultados de la búsqueda pueden mostrar cero o más resultados.
+-No es necesario utilizar el nombre completo.
+-Se debe mostrar la posición en la lista del paciente.
+-Se debe mostrar las operaciones posibles sobre el usuario.
 
-ID: 05        Nombre: Modificar datos clínicos del paciente
 
-Prioridad(de 1 a 10): 9        Puntos Estimado: 3    Iteración: 1
-Responsable: Miguel Ángel Romero.
-Descripción: Se introducirán unos nuevos datos clínicos del paciente seleccionado.
-Validación:
-El paciente debe estar registrado con anterioridad.
-Se debe introducir tipo de paciente (Privado/Público).
-Se debe introducir historial médico (enfermedad, problema, etc..).
-Se debe introducir tratamiento (dósis, regularidad).
-Todos los datos nombrados anteriormente deben ser verídicos.
+**Historia de Usuario**
+
+**ID:** 04        **Nombre:** Modificar datos personales del paciente
+
+**Prioridad(de 1 a 10): 8        Puntos Estimado: 3    Iteración: 1**
+**Responsable:** Miguel Ángel Romero.
+**Descripción:** Se introducirán unos nuevos datos personales al paciente seleccionado
+**Validación:**
+-El paciente debe estar registrado con anterioridad.
+-Se debe introducir nombre.
+-Se debe introducir apellidos.
+-Se debe introducir teléfono.
+-Se debe introducir dirección postal.
+-Se debe introducir fecha de nacimiento.
+-Todos los datos nombrados anteriormente deben ser verídicos.
+
+**Historia de Usuario**
+
+**ID:** 05        **Nombre:** Modificar datos clínicos del paciente
+
+**Prioridad(de 1 a 10): 9        Puntos Estimado: 3    Iteración: 1**
+**Responsable:** Miguel Ángel Romero.
+**Descripción:** Se introducirán unos nuevos datos clínicos del paciente seleccionado.
+**Validación:**
+-El paciente debe estar registrado con anterioridad.
+-Se debe introducir tipo de paciente (Privado/Público).
+-Se debe introducir historial médico (enfermedad, problema, etc..).
+-Se debe introducir tratamiento (dósis, regularidad).
+-Todos los datos nombrados anteriormente deben ser verídicos.
 
 
 
