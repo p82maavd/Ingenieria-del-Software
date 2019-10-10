@@ -210,8 +210,8 @@ Máximo 10 GiB de almacenamiento.
 **Actores Secundarios:** Paciente.
 
 **Precondiciones:**
--Al menos un paciente en el registro.
--Disponibilidad de fecha y hora.
+- Al menos un paciente en el registro.
+- Disponibilidad de fecha y hora.
 
 **Flujo Principal:**
 1. El Administrador desea registrar una cita en el sistema.
@@ -239,8 +239,8 @@ Máximo 10 GiB de almacenamiento.
 **Actores Secundarios:** Paciente.
 
 **Precondiciones:**
--Al menos un paciente en el registro.
--Que haya al menos una cita.
+- Al menos un paciente en el registro.
+- Que haya al menos una cita.
 
 **Flujo Principal:**
 1. El Administrador desea visualizar las citas del día.
@@ -266,17 +266,17 @@ Máximo 10 GiB de almacenamiento.
 **Descripción:** Se introducirán los datos tanto personales del paciente.
 
 **Validación:**
--El paciente no puede estar registrado con anterioridad.
--Se debe introducir nombre.
--Se debe introducir apellidos.
--Se debe introducir teléfono.
--Se debe introducir dirección postal.
--Se debe introducir fecha de nacimiento.
--Se debe introducir tipo de paciente (Privado/Público).
--Se debe introducir historial médico (Enfermedad, Problema, etc..).
--Se debe introducir tratamiento (Dósis, Regularidad).
--Se debe introducir citas registradas.
--Todos los datos nombrados anteriormente deben ser verídicos.
+- El paciente no puede estar registrado con anterioridad.
+- Se debe introducir nombre.
+- Se debe introducir apellidos.
+- Se debe introducir teléfono.
+- Se debe introducir dirección postal.
+- Se debe introducir fecha de nacimiento.
+- Se debe introducir tipo de paciente (Privado/Público).
+- Se debe introducir historial médico (Enfermedad, Problema, etc..).
+- Se debe introducir tratamiento (Dósis, Regularidad).
+- Se debe introducir citas registradas.
+- Todos los datos nombrados anteriormente deben ser verídicos.
 
 ---
 
@@ -291,10 +291,10 @@ Máximo 10 GiB de almacenamiento.
 **Descripción:** Como Administrador quiero una lista que muestre los datos de los distintos pacientes, previamente introducidos.
 
 **Validación:**
--Debe aparecer el nombre y apellido de los pacientes a modo de vista previa.
--La ficha del paciente debe poder ampliarse al seleccionarse.
--Se mostrará información más detallada al seleccionarse.
--Al seleccionarse un paciente también aparecerán distintas opciones en referencia al mismo.
+- Debe aparecer el nombre y apellido de los pacientes a modo de vista previa.
+- La ficha del paciente debe poder ampliarse al seleccionarse.
+- Se mostrará información más detallada al seleccionarse.
+- Al seleccionarse un paciente también aparecerán distintas opciones en referencia al mismo.
 
 ---
 
@@ -309,11 +309,11 @@ Máximo 10 GiB de almacenamiento.
 **Descripción:** Como Administrador quiero una lista que muestre los datos de los distintos pacientes, previamente introducidos.
 
 **Validación:**
--Se debe poder localizar cualquier usuario.
--Los resultados de la búsqueda pueden mostrar cero o más resultados.
--No es necesario utilizar el nombre completo.
--Se debe mostrar la posición en la lista del paciente.
--Se debe mostrar las operaciones posibles sobre el usuario.
+- Se debe poder localizar cualquier usuario.
+- Los resultados de la búsqueda pueden mostrar cero o más resultados.
+- No es necesario utilizar el nombre completo.
+- Se debe mostrar la posición en la lista del paciente.
+- Se debe mostrar las operaciones posibles sobre el usuario.
 
 ---
 
@@ -328,13 +328,13 @@ Máximo 10 GiB de almacenamiento.
 **Descripción:** Se introducirán unos nuevos datos personales al paciente seleccionado
 
 **Validación:**
--El paciente debe estar registrado con anterioridad.
--Se debe introducir nombre.
--Se debe introducir apellidos.
--Se debe introducir teléfono.
--Se debe introducir dirección postal.
--Se debe introducir fecha de nacimiento.
--Todos los datos nombrados anteriormente deben ser verídicos.
+- El paciente debe estar registrado con anterioridad.
+- Se debe introducir nombre.
+- Se debe introducir apellidos.
+- Se debe introducir teléfono.
+- Se debe introducir dirección postal.
+- Se debe introducir fecha de nacimiento.
+- Todos los datos nombrados anteriormente deben ser verídicos.
 
 ---
 
@@ -349,11 +349,11 @@ Máximo 10 GiB de almacenamiento.
 **Descripción:** Se introducirán unos nuevos datos clínicos del paciente seleccionado.
 
 **Validación:**
--El paciente debe estar registrado con anterioridad.
--Se debe introducir tipo de paciente (Privado/Público).
--Se debe introducir historial médico (enfermedad, problema, etc..).
--Se debe introducir tratamiento (dósis, regularidad).
--Todos los datos nombrados anteriormente deben ser verídicos.
+- El paciente debe estar registrado con anterioridad.
+- Se debe introducir tipo de paciente (Privado/Público).
+- Se debe introducir historial médico (enfermedad, problema, etc..).
+- Se debe introducir tratamiento (dósis, regularidad).
+- Todos los datos nombrados anteriormente deben ser verídicos.
 
 
 
