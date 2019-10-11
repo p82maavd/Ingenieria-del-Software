@@ -248,6 +248,10 @@ Fecha Límite: 23-12.
 
 ---
 
+![Diagrama de casos de uso](https://raw.githubusercontent.com/p82maavd/proyectois/Diagrama.jpg)
+
+---
+
 **Historia de Usuario**
 
 **ID:** 01        **Nombre:** Añadir nuevo usuario
