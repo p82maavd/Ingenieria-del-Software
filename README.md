@@ -248,7 +248,7 @@ Fecha Límite: 23-12.
 
 ---
 
-![Diagrama de casos de uso](https://github.com/p82maavd/proyectois/Diagrama.jpg)
+![Diagrama de casos de uso](Diagrama.jpg)
 
 ---
 
