@@ -355,5 +355,46 @@ Máximo 10 GiB de almacenamiento.
 - Se debe introducir tratamiento (dósis, regularidad).
 - Todos los datos nombrados anteriormente deben ser verídicos.
 
+--- 
+
+**Historia de Usuario**
+
+**ID:** 06     	**Nombre:** Concertar una cita.
+
+**Prioridad(de 1 a 10): 7    	Puntos Estimado: 3	Iteración: 1**
+
+**Responsable:** Miguel Ángel Romero.
+
+**Descripción:** Se introducirá un día y una hora que constará como la cita del paciente.
+
+**Validación:**
+- Se introducirá un día.
+- Se comprobará que la fecha existe.
+- Se introducirá una fecha.
+- Se comprobará que la hora existe.
+- Si esa hora está cogida por otro paciente saltará un mensaje.
+- Si se desea cambiar la fecha se hará, si no se introducirá otra día y otra hora.
+- Por último se introducirá el nombre del paciente.
+
+---
+
+**Historia de Usuario**
+
+**ID:** 07    	**Nombre:** Mostrar citas del día.
+
+**Prioridad(de 1 a 10): 7    	Puntos Estimado: 3	Iteración: 1**
+
+**Responsable:** Miguel Ángel Romero.
+
+**Descripción:** Se abrirá una lista con todas las citas existentes en ese día.
+
+**Validación:**
+
+- Mínimo a de haber una cita.
+- Limpiará la pantalla para mayor claridad.
+- Mostrará todas las citas en el orden horario.
+
+
+
 
 
