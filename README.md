@@ -1,49 +1,41 @@
 # proyectois
 Proyecto Ingeniería del Software
 
-Proyecto IS
+**Partes interesadas:** Centro Clínico.
 
-Datos personales, Dirección Postal, Fecha de Nacimiento, Teléfono, Privado/Seguro (Empresa), Historial Médico, Tratamiento, Citas Registradas, Fecha y duración de la misma, Ordenación por fechas, SO: Linux, +200 Pacientes, Fecha Límite: 23-12.
-
-
-- Conservar Tratamiento Pasado.
-- Posibilidad de Edición de tratamiento en curso.
-- Edición de datos personales.
-
-
-Partes interesadas:
-Centro Clínico.
-Datos que gestiona el sistema:
+**Datos que gestiona el sistema:**
 Pacientes(+200):
-Nombre.
-Apellidos.
-Teléfono.
-Dirección Postal.
-Fecha de Nacimiento.
-Tipo de paciente (Privado/Público).
-Historial Médico (Enfermedad, Problema, etc..).
-Tratamiento (Dósis, Regularidad).
-Citas Registradas.
-Fecha última modificación.
-Requisitos funcionales:
-Añadir nuevo usuario.
-Mostrar una lista de los usuarios.
-Buscar usuario por nombre y apellidos.
-Modificar datos personales de paciente.
-Modificar datos clínicos del paciente.
+- Nombre.
+- Apellidos.
+- Teléfono.
+- Dirección Postal.
+- Fecha de Nacimiento.
+- Tipo de paciente (Privado/Público).
+- Historial Médico (Enfermedad, Problema, etc..).
+- Tratamiento (Dósis, Regularidad).
+- Citas Registradas.
+- Fecha última modificación.
+
+
+**Requisitos funcionales:**
+- Añadir nuevo usuario.
+- Mostrar una lista de los usuarios.
+- Buscar usuario por nombre y apellidos.
+- Modificar datos personales de paciente.
+- Modificar datos clínicos del paciente.
 
 
 
-Requisitos no funcionales
-Sistema operativo Linux.
-Interfaz CLI.
-Lenguaje de implementación: C++.
-Máximo 10 GiB de almacenamiento.
+**Requisitos no funcionales:**
+- Sistema operativo Linux.
+- Interfaz CLI.
+- Lenguaje de implementación: C++.
+- Máximo 10 GiB de almacenamiento.
 
 
+Fecha Límite: 23-12.
 
-
-
+---
 
 
 **Añadir nuevo usuario.**
