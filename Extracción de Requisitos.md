@@ -25,6 +25,11 @@ Pacientes(+200):
 - Buscar usuario por nombre y apellidos.
 - Modificar datos personales de paciente.
 - Modificar datos clínicos del paciente.
+- Concertar una cita.
+- Mostrar citas del día.
+- Mover Citas.
+- Cancelar Citas.
+- Mostrar Historial del Paciente.
 
 
 
