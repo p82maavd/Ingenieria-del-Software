@@ -4,7 +4,7 @@
 
 **Responsable:** Miguel Ángel Romero.
 
-**Descripción:** Se abrirá una lista con todas las citas existentes en ese día.
+**Descripción:** Como administrador quiero mostrar una lista con todas las citas del día.
 
 **Validación:**
 
