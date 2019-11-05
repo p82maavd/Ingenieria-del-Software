@@ -1,34 +1,20 @@
 
-**Añadir nuevo usuario.**
+**ID:** 01        **Nombre:** Añadir nuevo usuario
+**Prioridad(de 1 a 10): 10        Puntos Estimado: 3    Iteración: 1**
 
-**ID:** 01 
+**Responsable:** Miguel Ángel Romero.
 
-**Descripción:** Se introducirán los datos tanto personales (Nombre, Apellidos, Número de teléfono…) como clínicos (Tipo de paciente, historial médico…) del paciente.
+**Descripción:** Se introducirán los datos tanto personales del paciente.
 
-**Actores Principales:** Administrador. 
-
-**Actores Secundarios:** Paciente.
-
-**Precondiciones:**
-
-- Ninguna.
-
-**Flujo Principal:**
-
-1. El Administrador desea añadir un nuevo usuario a la lista.
-
-2. El Administrador selecciona la opción de añadir nuevo paciente.
-
-3. El Administrador introducirá los datos personales del paciente.
-
-4. El Administrador introducirá los datos clínicos del paciente.
-
-5. El sistema añadirá al nuevo paciente a la lista.
-
-**Postcondiciones:**
-
-- Se muestran al Administrador una vista previa de la ficha del paciente.
-
-**Flujos alternativos:**
-
-5.a. En caso de no aportar datos suficientes el sistema no añadirá paciente y volverá a pedir los datos.
+**Validación:**
+- El paciente no puede estar registrado con anterioridad.
+- Se debe introducir nombre.
+- Se debe introducir apellidos.
+- Se debe introducir teléfono.
+- Se debe introducir dirección postal.
+- Se debe introducir fecha de nacimiento.
+- Se debe introducir tipo de paciente (Privado/Público).
+- Se debe introducir historial médico (Enfermedad, Problema, etc..).
+- Se debe introducir tratamiento (Dósis, Regularidad).
+- Se debe introducir citas registradas.
+- Todos los datos nombrados anteriormente deben ser verídicos.
