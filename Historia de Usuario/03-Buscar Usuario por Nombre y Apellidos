@@ -1,25 +1,14 @@
-**Buscar usuario por nombre y apellido.**
+**ID:** 03         **Nombre:** Buscar usuario por nombre y apellidos.
 
-**ID:** 03
+**Prioridad(de 1 a 10): 7        Puntos Estimado: 3    Iteración: 1**
 
-**Descripción:** Se introduce el nombre y apellido del paciente que se busca y el sistema mostrará la ficha del mismo
+**Responsable:** Hugo Romero.
 
-**Actores Principales:** Administrador. 
+**Descripción:** Como Administrador quiero una lista que muestre los datos de los distintos pacientes, previamente introducidos.
 
-**Actores Secundarios:** Paciente.
-
-**Precondiciones:**
-- Al menos un paciente en el registro.
-
-**Flujo Principal:**
-1. El Administrador desea consultar los datos de un paciente.
-2. El Administrador selecciona la opción que le permitirá revisar la lista del menú.
-3. El Administrador selecciona dentro de la lista seleccionará la opción que le permitirá buscarlos por nombre y apellido.
-4. El Administrador introduce el nombre y apellido del paciente.
-5. El sistema muestra la ficha del paciente.
-
-**Postcondiciones:**
-- Se muestran al Administrador las distintas operaciones relativas al paciente.
-
-**Flujos alternativos:**
-5.a. Si no existe el paciente, se muestra un mensaje de error y devuelve a la lista.
+**Validación:**
+- Se debe poder localizar cualquier usuario.
+- Los resultados de la búsqueda pueden mostrar cero o más resultados.
+- No es necesario utilizar el nombre completo.
+- Se debe mostrar la posición en la lista del paciente.
+- Se debe mostrar las operaciones posibles sobre el usuario.
