@@ -4,7 +4,7 @@
 
 **Responsable:** Miguel Ángel Romero.
 
-**Descripción:** Se introducirán unos nuevos datos personales al paciente seleccionado
+**Descripción:** Como administrador quiero localizar los datos personales de un paciente y modificarlos.
 
 **Validación:**
 - El paciente debe estar registrado con anterioridad.
