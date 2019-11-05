@@ -4,7 +4,7 @@
 
 **Responsable:** Miguel Ángel Romero.
 
-**Descripción:** Se introducirá un día y una hora que constará como la cita del paciente.
+**Descripción:** Como administrador quiero concertar una nueva cita introduciendo su hora y fecha.
 
 **Validación:**
 - Se introducirá un día.
