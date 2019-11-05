@@ -4,7 +4,8 @@
 
 **Responsable:** Hugo Romero.
 
-**Descripción:** Como Administrador quiero una lista que muestre los datos de los distintos pacientes, previamente introducidos.
+**Descripción:** Como Administrador quiero una lista que muestre los datos de los distintos pacientes (incluye citas si existen), previamente introducidos.
+
 
 **Validación:**
 - Se debe poder localizar cualquier usuario.
