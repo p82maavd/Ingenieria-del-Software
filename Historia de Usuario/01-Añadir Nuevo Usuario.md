@@ -4,7 +4,7 @@
 
 **Responsable:** Miguel Ángel Romero.
 
-**Descripción:** Se introducirán los datos tanto personales del paciente.
+**Descripción:** Como administrador quiero introducir los datos tanto personales como clínicos de un paciente.
 
 **Validación:**
 - El paciente no puede estar registrado con anterioridad.
