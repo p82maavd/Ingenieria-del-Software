@@ -30,6 +30,9 @@ Pacientes(+200):
 - Mover Citas.
 - Cancelar Citas.
 - Mostrar Historial del Paciente.
+- Mostrar Tratamientos Paciente.
+- Eliminar Tratamientos Paciente.
+- Añadir Tratamientos Paciente.
 
 
 
@@ -42,12 +45,7 @@ Pacientes(+200):
 
 Fecha Límite: 23-12.
 
----
 
-
-
-
-![Diagrama de casos de uso](Diagrama.jpg)
 
 
 
