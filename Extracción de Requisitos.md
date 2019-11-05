@@ -1,7 +1,9 @@
 # proyectois
 Proyecto Ingeniería del Software
 
-**Partes interesadas:** Centro Clínico.
+**Partes interesadas:** 
+- Centro Clínico.
+- Desarrolladores
 
 **Datos que gestiona el sistema:**
 Pacientes(+200):
