@@ -8,6 +8,7 @@
 
 **Validación:**
 
-- Mínimo a de haber una cita.
+- Debe de haber una cita para poder realizar la acción.
 - Limpiará la pantalla para mayor claridad.
-- Mostrará todas las citas en el orden horario.
+- Se deben de mostrar todas las citas en el orden horario.
+
