@@ -8,6 +8,6 @@
 
 **Validación:**
 
-- El paciente debe estar registrado en el sistema.
+- Se debera seleccionar a un paciente.
 - Limpiará la pantalla para mayor claridad.
 - Se deberá de abrir una nueva ventana mostrando los datos clínicos del paciente.
