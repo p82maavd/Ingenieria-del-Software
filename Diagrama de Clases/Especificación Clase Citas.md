@@ -1,7 +1,7 @@
 
 **Clase:** Pacientes
 
-Esta clase contendrá las funciones destinadas a las citas, como añadir un nuevo paciente, buscar un paciente por su nombre o apellidos  o modificar algun dato de los pacientes.
+Esta clase contendrá las funciones destinadas a las citas, como añadir una nueva cita, eliminarla o modificarlas.
 
 **Datos:**
 
