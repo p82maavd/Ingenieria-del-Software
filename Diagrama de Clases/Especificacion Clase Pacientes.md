@@ -15,6 +15,6 @@ Esta clase contendrá las funciones destinadas a los pacientes, como añadir un 
 
 **Métodos:**
 
-+ getPacientes() Descripción: Muestra todos los pacientes de la clínica***********
-+ addPacientes() Descripción: 
-+ getPaciente()  Descripción:
++ getPacientes Descripción: Función que muestra todos los pacientes de la clínica
++ addPacientes Descripción: Función que añade un paciente al registro de la clínica.
++ getPaciente  Descripción: Función que busca a un paciente por nombre y apellidos.
