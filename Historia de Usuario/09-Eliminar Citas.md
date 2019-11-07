@@ -12,3 +12,4 @@
 - Limpiará la pantalla para mayor claridad.
 - Mostrará todas las citas en el orden horario.
 - Se seleccionará la cita que se desea eliminar.
+- Se guardarán los cambios en el sistema.
