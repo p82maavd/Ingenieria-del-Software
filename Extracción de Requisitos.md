@@ -9,7 +9,7 @@ Proyecto Ingeniería del Software
 Pacientes(+200):
 - Nombre.
 - Apellidos.
-- Dni
+- DNI.
 - Teléfono.
 - Dirección Postal.
 - Fecha de Nacimiento.
