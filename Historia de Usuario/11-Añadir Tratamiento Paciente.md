@@ -4,7 +4,7 @@
 
 **Responsable:** Miguel Ángel Romero.
 
-**Descripción:** Como administrador quiero añadir un nuevo tratamiento ipara actualizar los tratamientos del paciente.
+**Descripción:** Como administrador quiero añadir un nuevo tratamiento para actualizar los tratamientos del paciente.
 
 **Validación:**
 
