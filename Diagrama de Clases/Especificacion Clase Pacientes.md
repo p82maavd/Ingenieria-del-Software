@@ -33,5 +33,5 @@ Esta clase contendrá las funciones destinadas a los pacientes, como añadir un 
 + getDireccion Descripción: Función que devuelve la direccion de un paciente.
 + setDireccionpostal Descripción: Función que asigna un nuevo valor a la variable direccionpostal_.
 + getDireccionpostal Descripción: Función que devuelve la direccion postal de un paciente.
-+ setTipopaciente Descripción: Función que asigna un nuevo valor a la variable tipopaciente_.
++ setTipopaciente Descripción: Función que asigna un nuevo valor a la variable tipopaciente_. (Sanidad Publica, Sanidad Privada)
 + getTipopaciente Descripción: Función que devuelve el tipo de paciente.
