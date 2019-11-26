@@ -4,10 +4,13 @@ Esta clase contendrá las funciones destinadas a los pacientes, como mostrar su 
 
 **Datos:**
 
-- fecha           Tipo: String  Descripción: Fecha en la que un paciente a ido a una consulta.
-- motivo_consulta  Tipo: String  Descripción: Motivo de la consulta
+- p_ Tipo: Paciente Descripción: Paciente al que ha sido asignado el historial.
+- fecha_           Tipo: String  Descripción: Fecha en la que un paciente a ido a una consulta.
+- observaciones_ Tipo: String  Descripción: Observaciones sobre el paciente.
 
 **Métodos:**
 
-+ getHistorial Descripción: Función que muestra el historial médico de un paciente
-+ changeHistorial Descripción: Función que permite modificar los datos del historial médico de un determinado paciente.
++ setFecha Descripción: Funcion que asigna el valor de la fecha actual a fecha_.
++ getFecha Descripción: Funcion que devuelve el valor de fecha_.
++ setObservaciones Descripción: Función que asigna un nuevo valor a la variable observaciones_.
++ getObservaciones Descripción: Función que devuelve las observaciones del historial.
