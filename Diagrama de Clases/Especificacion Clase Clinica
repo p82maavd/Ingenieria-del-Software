@@ -1,0 +1,31 @@
+Clase: Clinica
+
+Esta clase contendrá las funciones principales.
+
+Datos:
+
+listapacientes_ Tipo: List <Paciente> Descripción: Lista con los pacientes de la clínica.
+listahistorial_: Tipo: List <Historial> Descripción: Lista con los historiales de los pacientes de la clinica.
+listatratamientos_ Tipo: List <Tratamiento> Descripción: Lista con los tratamientos de los pacientes de la clinica.
+Métodos:
+
+addPaciente Descripción: Funcion que asigna el valor de la fecha actual a fecha_.
+guardaPacientes Descripción: Funcion que devuelve el valor de fecha_.
+cargaPacientes Descripción: Función que asigna un nuevo valor a la variable observaciones_.
+getPaciente Descripción: Función que devuelve las observaciones del historial.
+getPaciente2
+modificarPaciente
+addHistorial
+getHistorial
+addCita
+guardaCitas
+cargaCitas
+citasPaciente
+citasDia
+modificarCitas
+eliminarCitas
+addTratamiento
+guardaTratamientos
+cargaTratamientos
+tratamientosPaciente
+elimininarTratamientos
