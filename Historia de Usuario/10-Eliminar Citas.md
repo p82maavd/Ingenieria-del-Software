@@ -1,4 +1,4 @@
-**ID:** 09		**Nombre:** Eliminar citas.
+**ID:** 10	**Nombre:** Eliminar citas.
 
 **Prioridad(de 1 a 10):** 7		**Puntos Estimado:** 3	**Iteración:** 1
 
