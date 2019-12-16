@@ -1,5 +1,5 @@
 
-**ID:** 10
+**ID:** 06
 
 **Descripción:** Muestra el historial del paciente seleccionado.
 
