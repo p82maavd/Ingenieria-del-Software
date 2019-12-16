@@ -1,4 +1,4 @@
-**ID:** 06     	**Nombre:** Concertar una cita.
+**ID:** 07     	**Nombre:** Concertar una cita.
 
 **Prioridad(de 1 a 10): 7    	Puntos Estimado: 3	Iteración: 1**
 
