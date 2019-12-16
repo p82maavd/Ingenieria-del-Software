@@ -1,4 +1,4 @@
-**ID:** 06
+**ID:** 07
 
 **Descripción:** Se registrara una cita asociada a un paciente y a una determinada fecha en el sistema 
 
