@@ -1,7 +1,7 @@
 
 **ID:** 10
 
-**Descripción:** Muestra los datos clínicos del paciente seleccionado.
+**Descripción:** Muestra el historial del paciente seleccionado.
 
 **Actores Principales:** Administrador, Secretario, Doctor. 
 
@@ -13,7 +13,7 @@ Al menos un paciente en el registro.
 
 **Flujo Principal:**
 
-1. El Administrador desea mostrar los datos clínicos del paciente.
+1. El Administrador desea mostrar el historial del paciente.
 2. El Administrador selecciona la opción que le permitirá revisar la lista del menú.
 3. El Administrador selecciona un paciente dentro de la lista.
 4. El Administrador seleccionará la opción de mostrar datos clínicos del paciente.
@@ -22,4 +22,4 @@ Al menos un paciente en el registro.
 
 **Postcondiciones:**
 
--Los datos clínicos son  mostrados.
+-El historial es mostrado.
