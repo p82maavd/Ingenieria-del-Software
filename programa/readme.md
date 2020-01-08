@@ -1,1 +1,1 @@
-  Para Compilar: g++ programaprincipal.cpp clinica.cc citas.cc paciente.cc tratamientos.cc historial.cc -std=gnu++11
+  Para Compilar: g++ -o programa programaprincipal.cpp clinica.cc citas.cc paciente.cc tratamientos.cc historial.cc -std=gnu++11
